@@ -1,0 +1,216 @@
+			body{
+				margin: 0;
+				background-color: #DEDEDE;
+			}
+			
+			h3 {
+				color: #55616D;
+			}
+
+			h4 {
+				color: #707477;
+			}
+
+			p {
+				margin: 0;
+			}
+
+			/*导航栏的样式*/
+			.top {
+				position: relative;
+				background: #363636;
+				height: 50px;
+				padding: 5px 20px;
+			}
+
+				#icon {
+					position: absolute;
+					margin-left: 20px;
+					height: 50px;
+				}
+
+				.navbar {
+					position: absolute;
+					right: 20px;
+					height: 50px;
+				}
+
+				.navbar ul li {
+					float: left;
+					margin: 0px 15px;
+					font-weight: bold;
+					/*color: white;*/
+				}
+
+
+			/*没有标点的无序列表样式*/
+			.list-none-style {
+				list-style-type: none;
+			}
+
+			/*图片模块的样式*/
+			.show-pic {
+				display: inline-block;
+				margin-bottom: 30px;
+				margin-left: 50px;
+				font-size: 3px;
+				border: 1px solid;
+				border-color: #CBCBCB;
+				width: 150px;
+				height: 150px;
+				text-align: center;
+			}
+
+				.pic-title {
+					margin: 16px;
+				}
+
+				.show-pic img{
+					width: 80px;
+					height: 80px;
+				}
+
+			/*粗体字样式*/
+			.bold-character {
+				font-weight: bold;
+			}
+			
+					#header {
+						margin-right: 2px;
+						background-color: black;
+						font-size: 0;
+						height: 60px;
+					}
+						.tap-header {
+							float: right;
+							display: inline-block;
+							font-size: 12px;
+							line-height: 60px;
+							width: 7%;
+							color: white;
+							text-align: center;
+							/* vertical-align: middle; */
+
+						}
+						.headerImage {
+							/* float: left; */
+							/*width: 120px;*/
+							height: inherit;
+							overflow: 0;
+						}
+
+					.content {
+						display: relative;
+					}
+						.place {
+							display: absolute;
+							margin-right: 382px;
+							margin-left: 20px;
+							margin-top: 20px;
+							margin-bottom: 20px;
+						}
+
+						.passage {
+							border-right: gray 2px solid;
+							border-bottom: gray 2px solid;
+							padding: 10px 20px;
+							background-color:  white;
+						}
+
+						.mytable {
+							width: 100%;
+							border-collapse: collapse;
+							font-size: 10px;
+							line-height: 25px;
+						}
+							.mytable th, .mytable td {
+								
+								border: 1px solid #A1A1A1;
+							}						
+							#col-table-a, #col-table-b	{
+								width: 40%;
+							}
+							#col-table-c {
+								width: 20%;
+							}
+							.mytable > thead > tr > th, .mytable> tfoot > tr > th, .mytable > tfoot > tr > td {
+								font-weight: bold;
+							}
+							.mytable th {
+								background-color: black;
+								color: white;
+								text-align: left;
+							}
+							.mytable > tfoot {
+								background-color: #CCCCCC;
+							}
+					
+					/*侧栏样式*/
+					#nav {
+						float: right;
+						width: 300px;
+						margin-top: 0;
+						margin-right: 20px;					
+					}
+
+						#nav-header {
+							margin-bottom: 10px;
+							height: 50px;
+							background-color: #CCCCCC;
+						}
+
+						#nav-header h2 {
+							margin-left: 5px;
+							padding-left: 10px; 
+							background-color: white;
+							line-height: 50px;
+							font-size: 16px;
+						}
+						form {
+							font-size: 10px;
+							line-height: 30px;
+						}
+
+						.item-name {
+							display: inline-block;
+							margin-right: 1%;
+							width: 30%;
+							text-align: right;
+						}
+							.item-tip {
+								margin-left: 31%;
+								padding-left: 2px;
+								color: gray;
+							}
+							.item-name-introduce {
+								vertical-align: top;
+							}
+							.input-box-oneline {
+								width: 150px;
+							}
+							button {
+								border: 0;
+								margin-top: 5px;
+								height: 30px;
+								line-height: 30px;
+								width: 100%;
+								border-radius: 10px;
+								background-color: #3355D0;
+								color:  white;
+								font-weight: bold;
+
+							}
+							form textarea {
+								width: 180px;
+								height: 100px;
+								font-size: 10px;
+							}
+					
+					#copyRight {
+						margin-right: 2px;
+						color: white;
+						text-align: center;
+						line-height: 50px;
+						font-size: 12px;
+						background-color: black;
+					}
